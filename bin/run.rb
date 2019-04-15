@@ -1,11 +1,11 @@
-source require_relative '../config/environment'
+require_relative '../config/environment'
 
-gem "Hashie"
-gem "Sinatra", "1.4.4"
-gem "Octokit", "~>2.0"
-gem "awesome_print", :git => 'git@github.com:awesome-print/awesome_print.git'
+"Hashie"
+"Sinatra", "1.4.4"
+"Octokit", "~>2.0"
+"awesome_print", :git => 'git@github.com:awesome-print/awesome_print.git'
 
-gem 'Pry', :group => "development"
+'Pry', :group => "development"
 
 group: test do
   gem "rspec"
