@@ -1,4 +1,4 @@
-require_relative '../config/environment'
+source require_relative '../config/environment'
 
 gem "Hashie"
 gem "Sinatra", "1.4.4"
