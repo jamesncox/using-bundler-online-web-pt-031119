@@ -4,8 +4,12 @@ gem "Hashie"
 gem "Sinatra", "1.4.4"
 gem "Octokit", "~>2.0"
 gem "awesome_print", :git => 'git@github.com:awesome-print/awesome_print.git'
+
 gem 'Pry', :group => "development"
-AwesomePrint
+
+group: test do
+  gem "rspec"
+end
 
 source "https://rubygems.org"
 
