@@ -1,8 +1,8 @@
 require_relative '../config/environment'
 
-Hashie
-Sinatra, 1.4.4
-Octokit
+gem "Hashie"
+gem "Sinatra", "1.4.4"
+Octokit, 
 Pry
 AwesomePrint
 
