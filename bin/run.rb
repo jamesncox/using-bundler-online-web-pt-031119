@@ -2,7 +2,8 @@ require_relative '../config/environment'
 
 gem "Hashie"
 gem "Sinatra", "1.4.4"
-Octokit, 
+gem "Octokit", "~>2.0"
+gem "awesome_print", :git => 'git@github.com:awesome-print/awesome_print.git'
 Pry
 AwesomePrint
 
